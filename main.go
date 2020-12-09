@@ -16,7 +16,7 @@ func main() {
 	defer conn.Close()
 	client := serialize.NewSerializeServiceClient(conn)
 	req := serialize.MsgRequest{
-		Name:   "LiHua",
+		//Name:   "LiHua",
 		Id:     5,
 		IsUser: true,
 	}
